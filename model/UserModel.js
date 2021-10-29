@@ -8,11 +8,11 @@ var userShema = new Schema({
     name: String,
     lastname: String,
     phone: String,
+    email: String,
     companyName: String,
     username: String,
     password: String,
-    role: String,
-    userObjId: String
+    role: String
 });
 
 mongoose.model("User", userShema);

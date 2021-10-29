@@ -11,6 +11,6 @@ var objModel = new Schema({
     userId: String
 });
 
-mongoose.model("Object", objModel);
+mongoose.model("newMdel", objModel);
 
 module.exports = mongoose;

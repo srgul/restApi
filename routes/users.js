@@ -12,7 +12,7 @@ router.post('/add', userController.addUser)
 
 router.get('/update', userController.updateUser)
 
-router.get('/oneUser', userController.getOneUser)
+router.get('/getUser', userController.getOneUser)
 
 router.get('/delete', userController.deleteUser)
 
